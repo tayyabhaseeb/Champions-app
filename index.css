@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+  user-select: none;
+}
+
+.container {
+  background: #1b1924;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 420px;
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.container > img {
+  width: 90px;
+  height: 90px;
+  display: block;
+}
+
+.container > h1 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 25px;
+
+  color: #ffffff;
+}
+
+.input {
+  width: 317px;
+  height: 118px;
+
+  background: #444059;
+  border-radius: 8px;
+  margin-top: 19px;
+  vertical-align: text-top;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
+  /* color: #8f8f8f; */
+  color: white;
+  padding: 10px;
+  resize: none;
+}
+
+.btn {
+  width: 317px;
+  height: 61px;
+  left: 36px;
+  top: 333px;
+
+  background: #28a9f1;
+  border-radius: 8px;
+  margin-top: 13px;
+
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: #04131c;
+}
+
+.container > h3 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #ffffff;
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #1b1924;
+  padding: 15px;
+  background-color: #ffffff;
+  width: 317px;
+
+  left: 37px;
+  top: 457px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  text-align: left;
+}
